@@ -1,0 +1,12 @@
+{
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "cSpell.words": [
+        "fourcc",
+        "hstack",
+        "imshow",
+        "thresholding"
+    ],
+}
