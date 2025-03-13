@@ -7,6 +7,11 @@
         "fourcc",
         "hstack",
         "imshow",
-        "thresholding"
+        "ksize",
+        "Sobel",
+        "sobelx",
+        "sobely",
+        "thresholding",
+        "Trackbar"
     ],
 }

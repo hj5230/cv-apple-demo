@@ -1,10 +1,11 @@
-import cv2
-import numpy as np
 import os
+import time
+import numpy as np
+import cv2
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 video_path = os.path.join(current_dir, "12-20.mp4")
-output_path = os.path.join(current_dir, "12-20_output.mp4")
+output_path = os.path.join(current_dir, f"{int(time.time())}.mp4")
 
 cap = cv2.VideoCapture(video_path)
 

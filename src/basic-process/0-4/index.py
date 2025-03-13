@@ -1,10 +1,11 @@
 import os
+import time
 import cv2
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
 video_path = os.path.join(current_dir, "0-4.mp4")
-output_path = os.path.join(current_dir, "0-4_output.mp4")
+output_path = os.path.join(current_dir, f"{int(time.time())}.mp4")
 
 cap = cv2.VideoCapture(video_path)
 
