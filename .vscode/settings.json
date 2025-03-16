@@ -6,12 +6,14 @@
     "cSpell.words": [
         "fourcc",
         "hstack",
+        "imread",
         "imshow",
         "ksize",
         "Sobel",
         "sobelx",
         "sobely",
         "thresholding",
-        "Trackbar"
+        "Trackbar",
+        "umat"
     ],
 }
